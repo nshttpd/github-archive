@@ -1,0 +1,9 @@
+package: github.com/nshttpd/github-archive
+import:
+- package: github.com/google/go-github
+  subpackages:
+  - github
+- package: golang.org/x/oauth2
+- package: golang.org/x/tools
+  subpackages:
+  - go/vcs
